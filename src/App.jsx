@@ -676,7 +676,7 @@ function VenueExplorer() {
               style={{ height: "100%", minHeight: 500 }}
               attributionControl={false}
             >
-              <TileLayer url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png" />
+              <TileLayer url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png" />
               {VENUES.map((v, i) => (
                 <CircleMarker
                   key={i}
