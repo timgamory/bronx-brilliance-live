@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Lehman College",
+    "hood": "Bedford Park",
+    "year": 1968,
+    "fact": "Part of CUNY. Home to the Lehman Center for the Performing Arts, one of the Bronx's premier cultural venues.",
+    "coords": [40.8734, -73.8940],
+    "events": [1],
+    "photos": []
+  },
+  {
+    "name": "Comp Sci High",
+    "hood": "Mott Haven",
+    "year": 2018,
+    "fact": "A public high school focused on computer science, with a brand-new facility designed for the innovators of tomorrow.",
+    "coords": [40.8095, -73.9180],
+    "events": [2],
+    "photos": []
+  },
+  {
+    "name": "Inspiration Point",
+    "hood": "Hunts Point",
+    "year": 2023,
+    "fact": "A cultural arts center inside The Peninsula, a mixed-use campus at the forefront of South Bronx revitalization.",
+    "coords": [40.8176, -73.8870],
+    "events": [3],
+    "photos": []
+  },
+  {
+    "name": "Andrew Freedman Home",
+    "hood": "Grand Concourse",
+    "year": 1924,
+    "fact": "Built in 1924, now an artist hub and community center. One of the most beautiful buildings on the Grand Concourse.",
+    "coords": [40.8310, -73.9235],
+    "events": [4],
+    "photos": []
+  },
+  {
+    "name": "Mt. Saint Vincent",
+    "hood": "Riverdale",
+    "year": 1847,
+    "fact": "Founded by the Sisters of Charity of New York. A university committed to ecumenism and the development of the whole person.",
+    "coords": [40.8984, -73.9033],
+    "events": [5],
+    "photos": []
+  },
+  {
+    "name": "DREAM Charter HS",
+    "hood": "South Bronx",
+    "year": 2020,
+    "fact": "Designed by Sir David Adjaye inside a transformed 1900s ice factory. One of NYC's most inspiring school buildings.",
+    "coords": [40.8128, -73.9210],
+    "events": [6],
+    "photos": []
+  }
+]

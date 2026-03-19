@@ -1,0 +1,14 @@
+[
+  { "name": "Majora Carter", "role": "Urban Revival Strategist & Author", "org": "Majora Carter Group", "type": "voice" },
+  { "name": "Rasheeda Frazier", "role": "Leadership Coach & Facilitator", "org": "", "type": "voice" },
+  { "name": "Olga Perez", "role": "Founder, MVP Lifeguards", "org": "CEA Cohort 1 Alum", "type": "fellow" },
+  { "name": "Chidi Asoluka", "role": "Executive Director", "org": "NewComm", "type": "voice" },
+  { "name": "Tomas Ramos", "role": "Founder, Oyate Group & Nourish", "org": "Civic Leader", "type": "voice" },
+  { "name": "Anthony Ramirez II", "role": "Creative Entrepreneur", "org": "From The Bronx", "type": "fellow" },
+  { "name": "Melissa Groneveldt", "role": "Wellness Founder", "org": "YummyTummy4Life / Monshe", "type": "fellow" },
+  { "name": "Gregory Morgan Jr.", "role": "Photographer & Studio Owner", "org": "LR2 Photo Studio", "type": "fellow" },
+  { "name": "Terese Brown", "role": "Fashion Designer", "org": "Terese Sydonna", "type": "fellow" },
+  { "name": "Desmond West", "role": "IT Founder", "org": "pinStripe IT", "type": "fellow" },
+  { "name": "Yasiris Ortiz", "role": "Pro Table Tennis Player", "org": "CEA Fellow", "type": "fellow" },
+  { "name": "Stephany Garcia", "role": "Youth Employment Leader", "org": "JobsFirstNYC", "type": "partner" }
+]
