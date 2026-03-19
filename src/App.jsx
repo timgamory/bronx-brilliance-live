@@ -261,7 +261,6 @@ function Hero() {
 
 function ImpactBar() {
   const [ref, vis] = useInView();
-  const stats = statsData.map(s => ({ v: s.value, pre: s.prefix, suf: s.suffix, l: s.label }));
   return (
     <section ref={ref} style={{
       background: C.navy, padding: "56px clamp(24px, 5vw, 48px)",
@@ -271,7 +270,7 @@ function ImpactBar() {
         maxWidth: 1100, margin: "0 auto",
         display: "flex", justifyContent: "space-between", flexWrap: "wrap", gap: 24,
       }}>
-        {stats.map((s, i) => (
+        {statsData.map((s, i) => (
           <div key={i} style={{
             textAlign: "center", flex: "1 1 140px",
             opacity: vis ? 1 : 0, transform: vis ? "translateY(0)" : "translateY(12px)",
@@ -280,11 +279,11 @@ function ImpactBar() {
             <div style={{
               fontFamily: "'Playfair Display', serif", fontSize: 36, fontWeight: 800,
               color: C.gold, lineHeight: 1.1,
-            }}>{vis && <Counter end={s.v} pre={s.pre || ""} suf={s.suf || ""} />}</div>
+            }}>{vis && <Counter end={s.value} pre={s.prefix || ""} suf={s.suffix || ""} />}</div>
             <div style={{
               fontFamily: "'DM Sans', sans-serif", fontSize: 12, color: "rgba(250,247,242,0.4)",
               marginTop: 4, fontWeight: 500,
-            }}>{s.l}</div>
+            }}>{s.label}</div>
           </div>
         ))}
       </div>
