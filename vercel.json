@@ -1,4 +1,4 @@
 {
-  "buildCommand": "node scripts/sync-sheet.js && vite build",
+  "buildCommand": "[ \"$SHEET_ID\" ] && node scripts/sync-sheet.js; vite build",
   "outputDirectory": "dist"
 }
